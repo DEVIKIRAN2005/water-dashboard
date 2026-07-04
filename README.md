@@ -21,7 +21,7 @@ Sensors → ESP8266 / ESP32 → ThingSpeak Cloud → React Dashboard
 
 
 ### Workflow:
-1. Water flow sensor collects real-time usage data  
+1. Water flow,TDS and Turbidity sensors collects real-time usage data  
 2. ESP8266/ESP32 processes sensor readings  
 3. Data is sent to ThingSpeak using HTTP API  
 4. ThingSpeak stores and visualizes cloud data  
@@ -34,7 +34,11 @@ Sensors → ESP8266 / ESP32 → ThingSpeak Cloud → React Dashboard
 ### Components Used:
 - ESP8266 / ESP32 Microcontroller  
 - Water Flow Sensor  
-- Power supply unit  
+- Power supply unit
+- Soleoid Valve
+- 12v water pump
+- TDS Sensor
+- Turbidity Sensor  
 - Connecting wires and prototype setup  
 
 ### Functionality:
